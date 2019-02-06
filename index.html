@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <title>Credit Card Validator</title>
+</head>
+<body>
+  <div>
+    <div>
+      <h2>Credit Card Validator</h2>
+      <form id="cc-form">
+        <label for="cc-input">Credit Card Number</label>
+        <input type="text" name="cc-input" id="cc-input" placeholder="Enter credit card number...">
+        <button type="submit">Validate</button>
+      </form>
+      <span id="error"></span>
+      <div>
+        <i id="cc-icon"></i>
+        <span id="cc-issuer"></span>
+        <span id="cc-category"></span>
+      </div>
+    </div>
+  </div>
+  <script src="validate.js"></script>
+</body>
+</html>
